@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Radiant background light beam glow -->
+    <path android:pathData="M54,12 L84,74 A34,34 0 0,1 24,74 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="54"
+                android:endY="80"
+                android:startX="54"
+                android:startY="12"
+                android:type="linear">
+                <item
+                    android:color="#4DFF9E00"
+                    android:offset="0.0" />
+                <item
+                    android:color="#00FF9E00"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer glowing halo ring -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,54m-26,0a26,26 0 1,1 52,0a26,26 0 1,1 -52,0"
+        android:strokeWidth="3"
+        android:strokeColor="#FF9E00" />
+
+    <!-- Innermost laser beam energy center -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,34 L54,48 L62,48 L54,64 L54,52 L46,52 Z" />
+
+    <!-- Visual glowing accent dots representing strobe pulses -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,20A2.5,2.5 0 1,1 53.99,20Z" />
+    <path
+        android:fillColor="#FF9E00"
+        android:pathData="M88,54A2.5,2.5 0 1,1 87.99,54Z" />
+    <path
+        android:fillColor="#FF9E00"
+        android:pathData="M20,54A2.5,2.5 0 1,1 19.99,54Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,88A2.5,2.5 0 1,1 53.99,88Z" />
+
+</vector>

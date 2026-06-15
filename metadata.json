@@ -1,0 +1,6 @@
+{
+  "name": "Flashlight & Strobe",
+  "description": "A high-performance offline flashlight application featuring led brightness control, active strobe effects, and screen light options.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
